@@ -1,0 +1,26 @@
+{
+  "name": "autoplug",
+  "version": "1.0.9",
+  "description": "automatic configuration",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autoplug"
+  },
+  "author": "alireza",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "autoplug": "index.js"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "webpack": "^2.6.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1"
+  }
+}
